@@ -26,8 +26,8 @@
 前置:已安装 [Node.js](https://nodejs.org)(18 及以上)。
 
 ```bash
-git clone <你的仓库地址>
-cd <项目目录>
+git clone https://github.com/adeepbook/Geography.git
+cd Geography
 npm install
 npm run dev
 ```
