@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "Bash(npx tsc *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm run *)",
+      "Bash(npx playwright *)",
+      "Bash(ls \"C:/Users/Lenovo/AppData/Local/ms-playwright/\" 2>/dev/null || echo \"not yet installed\")",
+      "Read(//c/Users/Lenovo/AppData/Local/ms-playwright/**)",
+      "Bash(node --experimental-vm-modules \"C:/Users/Lenovo/AppData/Local/Temp/test_notes.mjs\")",
+      "Bash(ls \"C:/Users/Lenovo/AppData/Local/ms-playwright/chromium-1223/chrome-win/\" 2>/dev/null | head -5; ls \"C:/Users/Lenovo/AppData/Roaming/npm/node_modules/playwright/\" 2>/dev/null | head -3 || echo \"not in npm global\")",
+      "Read(//c/Users/Lenovo/AppData/Roaming/npm/node_modules/**)",
+      "PowerShell(npm root -g)",
+      "PowerShell(npm install --prefix \"C:\\\\Users\\\\Lenovo\\\\AppData\\\\Local\\\\Temp\\\\pw_test\" playwright 2>&1)"
+    ]
+  }
+}
